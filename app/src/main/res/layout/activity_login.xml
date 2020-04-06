@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blank"
+    tools:context=".Login">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/call_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/callforhelp" />
+
+    <TextView
+        android:id="@+id/login_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="@font/nuevastdbold"
+        android:text="Login"
+        android:textColor="@color/header"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/login_userid_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/nuevastdbold"
+        android:text="User Id"
+        android:textAlignment="center"
+        android:textColor="@color/header"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/login_user_id"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="410dp"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:fontFamily="@font/nuevastdbold"
+        android:hint="Enter User Id"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/login_password_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="@font/nuevastdbold"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textColor="@color/header"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/login_pass_id"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="460dp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:fontFamily="@font/nuevastdbold"
+        android:hint="Enter Password"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/login_fogot_password_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="515dp"
+        android:fontFamily="@font/nuevastdbold"
+        android:text="Forgotten Password?"
+        android:textAlignment="center"
+        android:textColor="@color/header"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/login_donot_msg_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="670dp"
+        android:fontFamily="@font/nuevastdbold"
+        android:text="Do not have account??"
+        android:textAlignment="center"
+        android:textColor="@color/header"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/login_Register_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="665dp"
+        android:fontFamily="@font/nuevastdbold"
+        android:clickable="true"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/signin_id"
+        android:background="@drawable/signbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="570dp"
+        android:text="Sign In"
+        android:fontFamily="@font/nuevastdbold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+
+
+</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/start_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-40dp"
+        android:src="@drawable/start"
+
+        />
+
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>
